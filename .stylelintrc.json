@@ -1,0 +1,23 @@
+{
+  "parser": ["css"],
+  "plugins": ["stylelint-scss", "stylelint-order"],
+  "extends": [
+    "./node_modules/prettier-stylelint/config.js",
+    "stylelint-config-standard"
+  ],
+  "ignoreFiles": ["**/node_modules/**"],
+  "rules": {
+    "indentation": 2,
+    "order/order": ["custom-properties", "declarations"],
+    "order/properties-alphabetical-order": true,
+    "string-quotes": "double",
+    "comment-empty-line-before": "never",
+    "no-empty-source": null,
+    "length-zero-no-unit": true,
+    "number-leading-zero": "always",
+    "shorthand-property-no-redundant-values": true,
+    "rule-empty-line-before": "never",
+    "color-hex-case": "lower",
+    "color-hex-length": "short"
+  }
+}

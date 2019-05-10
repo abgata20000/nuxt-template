@@ -1,0 +1,9 @@
+/node_modules
+.circleci
+.github
+.idea
+.git*
+/build
+
+## OSX
+.DS_Store

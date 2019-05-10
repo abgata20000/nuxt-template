@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./app",
+    "types": [
+      "@types/node",
+      "@nuxt/vue-app"
+    ],
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "paths": { "@/*": [ "./*" ], "~/*": [ "./*" ] },
+    "target": "es5",
+    "strict": true,
+    "module": "esnext",
+    "moduleResolution": "node"
+  },
+  "exclude": [
+    "**/*.js",
+    "node_modules",
+    "coverage"
+  ]
+}
